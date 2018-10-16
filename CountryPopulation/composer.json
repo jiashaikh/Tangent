@@ -1,0 +1,24 @@
+{
+    "name": "jia/countrypopulation",
+    "description": "Country Population Service",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zend-db": "^2.9",
+        "php-amqplib/php-amqplib": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "module/Application/src/",
+	    "Ajax\\": "module/Ajax/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ajax\\": "module/Ajax/test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
